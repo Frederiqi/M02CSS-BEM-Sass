@@ -1,0 +1,22 @@
+$bodycolor: #090b08;
+$background-color: #ecffe9;
+$a-color: #090b08;
+$btn-border-color: #000;
+$btn-hover-focus-shadowcolor: rgba(0, 0, 0, 0.75);
+$form-input-1st-child-color: transparant;
+$form-input-last-child-color: #c0eea9;
+$form-submit-background-color: #000;
+$form-submit-color: #fff;
+$form-submit-hover-shadowcolor: rgba(0, 0, 0, 0.75);
+$form-input-border-color: #000;
+$header-background-color: #c0eea9;
+$header-shadowcolor: rgba(0, 0, 0, 0.75);
+$title__line-backgroundcolor: #000;
+$hero-backgroundcolor: #97d279;
+$about-backgroundcolor: #97d279;
+$padding-standard: 20px;
+@mixin text-hero-featured-about {
+  max-width: 700px;
+  text-align: center;
+  padding: $padding-standard;
+}
